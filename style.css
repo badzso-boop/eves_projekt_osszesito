@@ -125,3 +125,14 @@ hr
     padding: 10px;
     border: 1px solid;
 }
+
+@media only screen and (max-width: 1400px) {
+    /* For tablets: */
+    *{width: 100%; padding: 0%; margin: 0%;}
+    .honap{display: list-item; list-style: none;}
+    .projekt{display: list-item; list-style: none;margin: 5% auto; width: 80%;padding: 15px;}
+    .projekt h1 {padding: 5% auto;}
+    .alcim_doboz{padding: 5px;}
+    .honapok{width: 100%;}
+    .honap{width:100%;}
+}
