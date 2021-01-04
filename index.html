@@ -4,8 +4,339 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Összesítő</title>
+    <link rel="stylesheet" href="style.css">
+    <script src = "script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.js"></script>
 </head>
 <body>
-    <h1>Projektek</h1>
+    <div class="header">
+        <h1 id = "cim">Projektek</h1>
+    </div>
+    <div class="honapok">
+        <div class="honap">
+            <h1 class = "cim">Január</h1>
+            <div class="projekt">
+                <h1>Projekt1</h1>
+                <hr>
+                <div class="alcim_doboz" id = "szin">
+                    <h2 class="alcim">Összesítő weboldal</h2><p class="zarojel">(webes)</p>
+                </div>
+                <!--<img src="jan1.jpg" alt="Ez egy próba Kép">-->
+                <img class = "bortio_kep" src="photos/minta1.jpg" alt="">
+                <p class="szoveg">
+                    Ez egy minta szöveg amit majd mindig át kell írnom. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom.
+                </p>
+            </div>
+            <div class="projekt">
+                <h1>Projekt2</h1>
+                <hr>
+                <div class="alcim_doboz" id = "szin">
+                    <h2 class="alcim">Egyéb Side projektek</h2><p class="zarojel">(c#, js, web)</p>
+                </div>
+                <!--<img src="jan2.jpg" alt="Ez egy próba Kép">-->
+                <img class = "bortio_kep" src="photos/minta1.jpg" alt="">
+                <p class="szoveg">
+                    Ez egy minta szöveg amit majd mindig át kell írnom. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom.
+                </p>
+            </div>
+        </div>
+        <div class="honap">
+            <h1 class = "cim">Február</h1>
+            <div class="projekt">
+                <h1>Projekt1</h1>
+                <hr>
+                <div class="alcim_doboz" id = "szin">
+                    <h2 class="alcim">Számológép</h2><p class="zarojel">(webes)</p>
+                </div>
+                <!--<img src="feb1.jpg" alt="Ez egy próba Kép">-->
+                <img class = "bortio_kep" src="photos/minta1.jpg" alt="">
+                <p class="szoveg">
+                    Ez egy minta szöveg amit majd mindig át kell írnom. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom.
+                </p>
+            </div>
+            <div class="projekt">
+                <h1>Projekt2</h1>
+                <hr>
+                <div class="alcim_doboz" id = "szin">
+                    <h2 class="alcim">Számológép</h2><p class="zarojel">(c#, forms alapok)</p>
+                </div>
+                <!--<img src="feb2.jpg" alt="Ez egy próba Kép">-->
+                <img class = "bortio_kep" src="photos/minta1.jpg" alt="">
+                <p class="szoveg">
+                    Ez egy minta szöveg amit majd mindig át kell írnom. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom.
+                </p>
+            </div>
+        </div>
+        <div class="honap">
+            <h1 class = "cim">Március</h1>
+            <div class="projekt">
+                <h1>Projekt1</h1>
+                <hr>
+                <div class="alcim_doboz" id = "szin">
+                    <h2 class="alcim">Naptár</h2><p class="zarojel">(webes)</p>
+                </div>
+                <!--<img src="mar1.jpg" alt="Ez egy próba Kép">-->
+                <img class = "bortio_kep" src="photos/minta1.jpg" alt="">
+                <p class="szoveg">
+                    Ez egy minta szöveg amit majd mindig át kell írnom. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom.
+                </p>
+            </div>
+            <div class="projekt">
+                <h1>Projekt2</h1>
+                <hr>
+                <div class="alcim_doboz" id = "szin">
+                    <h2 class="alcim">Naptár</h2><p class="zarojel">(c#, forms)</p>
+                </div>
+                <!--<img src="mar2.jpg" alt="Ez egy próba Kép">-->
+                <img class = "bortio_kep" src="photos/minta1.jpg" alt="">
+                <p class="szoveg">
+                    Ez egy minta szöveg amit majd mindig át kell írnom. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom.
+                </p>
+            </div>
+        </div>
+        <div class="honap">
+            <h1 class = "cim">Április</h1>
+            <div class="projekt">
+                <h1>Projekt1</h1>
+                <hr>
+                <div class="alcim_doboz" id = "szin">
+                    <h2 class="alcim">Discord bot</h2><p class="zarojel">(backend)</p>
+                </div>
+                <!--<img src="apr1.jpg" alt="Ez egy próba Kép">-->
+                <img class = "bortio_kep" src="photos/minta1.jpg" alt="">
+                <p class="szoveg">
+                    Ez egy minta szöveg amit majd mindig át kell írnom. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom.
+                </p>
+            </div>
+            <div class="projekt">
+                <h1>Projekt2</h1>
+                <hr>
+                <div class="alcim_doboz" id = "szin">
+                    <h2 class="alcim">Discord bot</h2><p class="zarojel">(weboldala)</p>
+                </div>
+                <!--<img src="apr2.jpg" alt="Ez egy próba Kép">-->
+                <img class = "bortio_kep" src="photos/minta1.jpg" alt="">
+                <p class="szoveg">
+                    Ez egy minta szöveg amit majd mindig át kell írnom. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom.
+                </p>
+            </div>
+        </div>
+        <div class="honap">
+            <h1 class = "cim">Május</h1>
+            <div class="projekt">
+                <h1>Projekt1</h1>
+                <hr>
+                <div class="alcim_doboz" id = "szin">
+                    <h2 class="alcim">Fájlkezelő</h2><p class="zarojel">(c#, forms)</p>
+                </div>
+                <!--<img src="maj1.jpg" alt="Ez egy próba Kép">-->
+                <img class = "bortio_kep" src="photos/minta1.jpg" alt="">
+                <p class="szoveg">
+                    Ez egy minta szöveg amit majd mindig át kell írnom. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom.
+                </p>
+            </div>
+            <div class="projekt">
+                <h1>Projekt2</h1>
+                <hr>
+                <div class="alcim_doboz" id = "szin">
+                    <h2 class="alcim">Fájlkezelő</h2><p class="zarojel">(webes)</p>
+                </div>
+                <!--<img src="maj2.jpg" alt="Ez egy próba Kép">-->
+                <img class = "bortio_kep" src="photos/minta1.jpg" alt="">
+                <p class="szoveg">
+                    Ez egy minta szöveg amit majd mindig át kell írnom. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom.
+                </p>
+            </div>
+        </div>
+        <div class="honap">
+            <h1 class = "cim">Június</h1>
+            <div class="projekt">
+                <h1>Projekt1</h1>
+                <hr>
+                <div class="alcim_doboz" id = "szin">
+                    <h2 class="alcim">Kép Organizer</h2><p class="zarojel">(c# v. Python v, Java)</p>
+                </div>
+                <!--<img src="jun1.jpg" alt="Ez egy próba Kép">-->
+                <img class = "bortio_kep" src="photos/minta1.jpg" alt="">
+                <p class="szoveg">
+                    Ez egy minta szöveg amit majd mindig át kell írnom. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom.
+                </p>
+            </div>
+            <div class="projekt">
+                <h1>Projekt2</h1>
+                <hr>
+                <div class="alcim_doboz" id = "szin">
+                    <h2 class="alcim">Webshop</h2><p class="zarojel">(webes)</p>
+                </div>
+                <!--<img src="jun2.jpg" alt="Ez egy próba Kép">-->
+                <img class = "bortio_kep" src="photos/minta1.jpg" alt="">
+                <p class="szoveg">
+                    Ez egy minta szöveg amit majd mindig át kell írnom. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom.
+                </p>
+            </div>
+        </div>
+        <div class="honap">
+            <h1 class = "cim">Július</h1>
+            <div class="projekt">
+                <h1>Projekt1</h1>
+                <hr>
+                <div class="alcim_doboz" id = "szin">
+                    <h2 class="alcim">Video Player</h2><p class="zarojel">(webes)</p>
+                </div>
+                <!--<img src="jul1.jpg" alt="Ez egy próba Kép">-->
+                <img class = "bortio_kep" src="photos/minta1.jpg" alt="">
+                <p class="szoveg">
+                    Ez egy minta szöveg amit majd mindig át kell írnom. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom.
+                </p>
+            </div>
+            <div class="projekt">
+                <h1>Projekt2</h1>
+                <hr>
+                <div class="alcim_doboz" id = "szin">
+                    <h2 class="alcim">Amőba, ATM machine</h2><p class="zarojel">(c#)</p>
+                </div>
+                <!--<img src="jul2.jpg" alt="Ez egy próba Kép">-->
+                <img class = "bortio_kep" src="photos/minta1.jpg" alt="">
+                <p class="szoveg">
+                    Ez egy minta szöveg amit majd mindig át kell írnom. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom.
+                </p>
+            </div>
+        </div>
+        <div class="honap">
+            <h1 class = "cim">Augusztus</h1>
+            <div class="projekt">
+                <h1>Projekt1</h1>
+                <hr>
+                <div class="alcim_doboz" id = "szin">
+                    <h2 class="alcim">Valuta átváltó</h2><p class="zarojel">(webes)</p>
+                </div>
+                <!--<img src="aug1.jpg" alt="Ez egy próba Kép">-->
+                <img class = "bortio_kep" src="photos/minta1.jpg" alt="">
+                <p class="szoveg">
+                    Ez egy minta szöveg amit majd mindig át kell írnom. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom.
+                </p>
+            </div>
+            <div class="projekt">
+                <h1>Projekt2</h1>
+                <hr>
+                <div class="alcim_doboz" id = "szin">
+                    <h2 class="alcim">Adatbázis menedzselés</h2><p class="zarojel">(c#, php, mysql)</p>
+                </div>
+                <!--<img src="aug2.jpg" alt="Ez egy próba Kép">-->
+                <img class = "bortio_kep" src="photos/minta1.jpg" alt="">
+                <p class="szoveg">
+                    Ez egy minta szöveg amit majd mindig át kell írnom. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom.
+                </p>
+            </div>
+        </div>
+        <div class="honap">
+            <h1 class = "cim">Szeptember</h1>
+            <div class="projekt">
+                <h1>Projekt1</h1>
+                <hr>
+                <div class="alcim_doboz" id = "szin">
+                    <h2 class="alcim">Insta oldal, bot létrehozása</h2><p class="zarojel">(c# v. python)</p>
+                </div>
+                <!--<img src="sept1.jpg" alt="Ez egy próba Kép">-->
+                <img class = "bortio_kep" src="photos/minta1.jpg" alt="">
+                <p class="szoveg">
+                    Ez egy minta szöveg amit majd mindig át kell írnom. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom.
+                </p>
+            </div>
+            <div class="projekt">
+                <h1>Projekt2</h1>
+                <hr>
+                <div class="alcim_doboz" id = "szin">
+                    <h2 class="alcim">Saját oldal istagrammnak</h2><p class="zarojel">(webes)</p>
+                </div>
+                <!--<img src="sept2.jpg" alt="Ez egy próba Kép">-->
+                <img class = "bortio_kep" src="photos/minta1.jpg" alt="">
+                <p class="szoveg">
+                    Ez egy minta szöveg amit majd mindig át kell írnom. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom.
+                </p>
+            </div>
+        </div>
+        <div class="honap">
+            <h1 class = "cim">Október</h1>
+            <div class="projekt">
+                <h1>Projekt1</h1>
+                <hr>
+                <div class="alcim_doboz" id = "szin">
+                    <h2 class="alcim">Quiz app</h2><p class="zarojel">(webes)</p>
+                </div>
+                <!--<img src="okt1.jpg" alt="Ez egy próba Kép">-->
+                <img class = "bortio_kep" src="photos/minta1.jpg" alt="">
+                <p class="szoveg">
+                    Ez egy minta szöveg amit majd mindig át kell írnom. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom.
+                </p>
+            </div>
+            <div class="projekt">
+                <h1>Projekt2</h1>
+                <hr>
+                <div class="alcim_doboz" id = "szin">
+                    <h2 class="alcim">Kép felismerő AI</h2><p class="zarojel">(Java v. Python)</p>
+                </div>
+                <!--<img src="okt2.jpg" alt="Ez egy próba Kép">-->
+                <img class = "bortio_kep" src="photos/minta1.jpg" alt="">
+                <p class="szoveg">
+                    Ez egy minta szöveg amit majd mindig át kell írnom. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom.
+                </p>
+            </div>
+        </div>
+        <div class="honap">
+            <h1 class = "cim">November</h1>
+            <div class="projekt">
+                <h1>Projekt1</h1>
+                <hr>
+                <div class="alcim_doboz" id = "szin">
+                    <h2 class="alcim">Meglévőek Tökéletesítése</h2><p class="zarojel">(minden)</p>
+                </div>
+                <!--<img src="nov1.jpg" alt="Ez egy próba Kép">-->
+                <img class = "bortio_kep" src="photos/minta1.jpg" alt="">
+                <p class="szoveg">
+                    Ez egy minta szöveg amit majd mindig át kell írnom. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom.
+                </p>
+            </div>
+            <div class="projekt">
+                <h1>Projekt2</h1>
+                <hr>
+                <div class="alcim_doboz" id = "szin">
+                    <h2 class="alcim">Meglévőek tökéletesítése</h2><p class="zarojel">(minden)</p>
+                </div>
+                <!--<img src="nov2.jpg" alt="Ez egy próba Kép">-->
+                <img class = "bortio_kep" src="photos/minta1.jpg" alt="">
+                <p class="szoveg">
+                    Ez egy minta szöveg amit majd mindig át kell írnom. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom.
+                </p>
+            </div>
+        </div>
+        <div class="honap">
+            <h1 class = "cim">December</h1>
+            <div class="projekt">
+                <h1>Projekt1</h1>
+                <hr>
+                <div class="alcim_doboz" id = "szin">
+                    <h2 class="alcim">Elmaradás Pótlása</h2><p class="zarojel">(minden)</p>
+                </div>
+                <!--<img src="dec1.jpg" alt="Ez egy próba Kép">-->
+                <img class = "bortio_kep" src="photos/minta1.jpg" alt="">
+                <p class="szoveg">
+                    Ez egy minta szöveg amit majd mindig át kell írnom. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom.
+                </p>
+            </div>
+            <div class="projekt">
+                <h1>Projekt2</h1>
+                <hr>
+                <div class="alcim_doboz" id = "szin">
+                    <h2 class="alcim">Elmaradás pótlása</h2><p class="zarojel">(minden)</p>
+                </div>
+                <!--<img src="dec2.jpg" alt="Ez egy próba Kép">-->
+                <img class = "bortio_kep" src="photos/minta1.jpg" alt="">
+                <p class="szoveg">
+                    Ez egy minta szöveg amit majd mindig át kell írnom. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom,. Ez egy minta szöveg amit majd mindig át kell írnom.
+                </p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
